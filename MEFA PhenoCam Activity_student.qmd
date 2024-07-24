@@ -123,7 +123,7 @@ You can filter the table by any of the available attributes (column names). For 
 
 ```{r}
 # Create a subset of only grassland sites 
-GR_sites <- subset(sitelist_table, primary_veg_type == "")  
+GR_sites <- subset(sitelist_table, primary_veg_type == "GR")  
 
 # View the first few grassland entries and entire table
 View(GR_sites)
